@@ -10,15 +10,11 @@
           {
             "#": "action",
             "exclude": true,
-            "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+            "comment": "Matches any URL whose fragment equals action and instructs the system not to open it as a universal link"
           },
           {
-            "/": "/topic/*",
-            "comment": "Matches any URL whose path starts with /buy/"
-          },
-          {
-            "/": "/listen/*",
-            "comment": "Matches any URL whose path starts with /help/website/ and instructs the system not to open it as a universal link"
+            "/": "/*",
+            "comment": "Matches any URL"
           }
         ]
       }
