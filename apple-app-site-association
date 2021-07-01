@@ -1,14 +1,16 @@
 {
-	"applinks": {
-		"apps": [],
-		"details": [
-			{
-				"appID": "7Q65US49K6.com.hoangta.cna",
-				"paths": [
-					"NOT /action/*",
-					"/*"
-				]
-			}
-		]
-	}
+  "applinks": {
+    "apps": [
+      
+    ],
+    "details": [
+      {
+        "appID": "7Q65US49K6.com.hoangta.cna",
+        "paths": [
+          "NOT /action/*",
+          "/*"
+        ]
+      }
+    ]
+  }
 }
