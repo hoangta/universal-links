@@ -7,7 +7,6 @@
       {
         "appID": "7Q65US49K6.com.hoangta.cna",
         "paths": [
-          "NOT /action/*",
           "/*"
         ]
       }
