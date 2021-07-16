@@ -9,12 +9,16 @@
         "components": [
           {
             "/": "/action/*",
-            "exclude": true,
-            "comment": "Matches any URL whose fragment equals /action and instructs the system not to open it as a universal link"
+            "exclude": true
           },
           {
-            "/": "/*",
-            "comment": "Matches any URL"
+            "?": {
+              "login": "success"
+            },
+            "exclude": true
+          },
+          {
+            "/": "/*"
           }
         ]
       }
